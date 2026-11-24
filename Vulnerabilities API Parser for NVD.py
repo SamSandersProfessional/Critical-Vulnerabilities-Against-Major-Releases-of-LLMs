@@ -9,4 +9,4 @@ client = nvdlib.searchCVE(pubStartDate = '2026-01-01 00:00', pubEndDate = '2026-
 
 for eachCVE in client:
     print(eachCVE.published)      # Output the query
-print("end")        # Tells the program the query completed.
+print("end")                      # Tells the program the query completed.
